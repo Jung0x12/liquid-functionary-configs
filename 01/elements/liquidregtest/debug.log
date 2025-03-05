@@ -1,0 +1,138 @@
+
+
+
+
+
+2025-03-05T02:20:12Z Setting version bits activation parameters for dynafed to start=0, timeout=9223372036854775807
+2025-03-05T02:20:12Z Elements Core version v23.2.4 (release build)
+2025-03-05T02:20:12Z InitParameterInteraction: parameter interaction: -connect set -> setting -dnsseed=0
+2025-03-05T02:20:12Z Validating signatures for all blocks.
+2025-03-05T02:20:12Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2025-03-05T02:20:12Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2025-03-05T02:20:12Z Default data directory /Users/jung/Library/Application Support/Elements
+2025-03-05T02:20:12Z Using data directory /Users/jung/Project/liquid-functionary-configs/01/elements/liquidregtest
+2025-03-05T02:20:12Z Config file: /Users/jung/Project/liquid-functionary-configs/01/elements/elements.conf
+2025-03-05T02:20:12Z Config file arg: chain="liquidregtest"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] anyonecanspendaremine="0"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] bind="127.0.0.1"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] con_mandatorycoinbase="6a"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] con_max_block_sig_size="2000"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] con_npowtargetspacing="60"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] connect="127.0.0.1:13002"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] daemon="1"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] discover="0"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] dynamic_epoch_length="60"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] evbparams="dynafed:0::60:60"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] fallbackfee="0.000001"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] fdefaultconsistencychecks="0"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] initialfreecoins="2100000000000000"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] listen="1"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] listenonion="0"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] port="13001"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] rpcpassword=****
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] rpcport="12001"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] rpcuser=****
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] shrinkdebugfile="0"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] signblockscript="522103132cabec6b0334a7cb388bcf178a85a1f366ee3d7b747e1b7bf16cfff40b45042102726b2b67ee1411baeb09e8122619d3e029af9bb8b6665609285bb5435f844f9152ae"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] txindex="1"
+2025-03-05T02:20:12Z Config file arg: [liquidregtest] validatepegin="0"
+2025-03-05T02:20:12Z Command-line arg: datadir="/Users/jung/Project/liquid-functionary-configs/01/elements/"
+2025-03-05T02:20:12Z Using at most 125 automatic connections (2560 file descriptors available)
+2025-03-05T02:20:12Z Using 8 MiB out of 16/4 requested for signature cache, able to store 262144 elements
+2025-03-05T02:20:12Z Using 8 MiB out of 16/4 requested for script execution cache, able to store 262144 elements
+2025-03-05T02:20:12Z Using 8 MiB out of 8/4 requested for rangeproof cache, able to store 262144 elements
+2025-03-05T02:20:12Z Using 8 MiB out of 8/4 requested for surjectionproof cache, able to store 262144 elements
+2025-03-05T02:20:12Z Script verification uses 7 additional threads
+2025-03-05T02:20:12Z scheduler thread start
+2025-03-05T02:20:12Z HTTP: creating work queue of depth 16
+2025-03-05T02:20:12Z Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcauth for rpcauth auth generation.
+2025-03-05T02:20:12Z HTTP: starting 4 worker threads
+2025-03-05T02:20:12Z Using wallet directory /Users/jung/Project/liquid-functionary-configs/01/elements/liquidregtest/wallets
+2025-03-05T02:20:12Z init message: Verifying wallet(s)…
+2025-03-05T02:20:12Z Using /16 prefix for IP bucketing
+2025-03-05T02:20:12Z init message: Loading P2P addresses…
+2025-03-05T02:20:12Z Creating peers.dat because the file was not found ("/Users/jung/Project/liquid-functionary-configs/01/elements/liquidregtest/peers.dat")
+2025-03-05T02:20:12Z init message: Loading banlist…
+2025-03-05T02:20:12Z Recreating the banlist database
+2025-03-05T02:20:12Z SetNetworkActive: true
+2025-03-05T02:20:12Z Failed to read fee estimates from /Users/jung/Project/liquid-functionary-configs/01/elements/liquidregtest/fee_estimates.dat. Continue anyway.
+2025-03-05T02:20:12Z Cache configuration:
+2025-03-05T02:20:12Z * Using 2.0 MiB for block index database
+2025-03-05T02:20:12Z * Using 56.0 MiB for transaction index database
+2025-03-05T02:20:12Z * Using 8.0 MiB for chain state database
+2025-03-05T02:20:12Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2025-03-05T02:20:12Z init message: Loading block index…
+2025-03-05T02:20:12Z Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2025-03-05T02:20:12Z Opening LevelDB in /Users/jung/Project/liquid-functionary-configs/01/elements/liquidregtest/blocks/index
+2025-03-05T02:20:12Z Opened LevelDB successfully
+2025-03-05T02:20:12Z Using obfuscation key for /Users/jung/Project/liquid-functionary-configs/01/elements/liquidregtest/blocks/index: 0000000000000000
+2025-03-05T02:20:12Z LoadBlockIndexGuts: loaded 0 total / 0 untrimmed (fully in-memory) headers
+2025-03-05T02:20:12Z LoadBlockIndexDB: last block file = 0
+2025-03-05T02:20:12Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2025-03-05T02:20:12Z Checking all blk files are present...
+2025-03-05T02:20:12Z Initializing databases...
+2025-03-05T02:20:12Z Opening LevelDB in /Users/jung/Project/liquid-functionary-configs/01/elements/liquidregtest/chainstate
+2025-03-05T02:20:12Z Opened LevelDB successfully
+2025-03-05T02:20:12Z Wrote new obfuscate key for /Users/jung/Project/liquid-functionary-configs/01/elements/liquidregtest/chainstate: c2174fd4efb7dd42
+2025-03-05T02:20:12Z Using obfuscation key for /Users/jung/Project/liquid-functionary-configs/01/elements/liquidregtest/chainstate: c2174fd4efb7dd42
+2025-03-05T02:20:12Z init message: Verifying blocks…
+2025-03-05T02:20:12Z  block index              32ms
+2025-03-05T02:20:12Z Opening LevelDB in /Users/jung/Project/liquid-functionary-configs/01/elements/liquidregtest/indexes/txindex
+2025-03-05T02:20:12Z Opened LevelDB successfully
+2025-03-05T02:20:12Z Using obfuscation key for /Users/jung/Project/liquid-functionary-configs/01/elements/liquidregtest/indexes/txindex: 0000000000000000
+2025-03-05T02:20:12Z txindex thread start
+2025-03-05T02:20:12Z txindex is enabled
+2025-03-05T02:20:12Z txindex thread exit
+2025-03-05T02:20:12Z loadblk thread start
+2025-03-05T02:20:12Z UpdateTip: new best=4a8b197f3d6f031d592debbc102c0bbcb1c046710008042d9ed2881e695b89be height=0 version=0x00000001 log2_work=0.000000 tx=2 date='2011-02-02T23:16:42Z' progress=0.000000 cache=0.0MiB(1txo)
+2025-03-05T02:20:12Z Failed to open mempool file from disk. Continuing anyway.
+2025-03-05T02:20:12Z loadblk thread exit
+2025-03-05T02:20:12Z block tree size = 1
+2025-03-05T02:20:12Z nBestHeight = 0
+2025-03-05T02:20:12Z Bound to 127.0.0.1:13001
+2025-03-05T02:20:12Z Bound to 127.0.0.1:37040
+2025-03-05T02:20:12Z init message: Starting network threads…
+2025-03-05T02:20:12Z DNS seeding disabled
+2025-03-05T02:20:12Z net thread start
+2025-03-05T02:20:12Z addcon thread start
+2025-03-05T02:20:12Z opencon thread start
+2025-03-05T02:20:12Z init message: Done loading
+2025-03-05T02:20:12Z msghand thread start
+2025-03-05T02:20:12Z connect() to 127.0.0.1:13002 failed after wait: Connection refused (61)
+2025-03-05T02:20:13Z New outbound peer connected: version: 70016, blocks=0, peer=1 (manual)
+2025-03-05T02:21:10Z CreateNewBlock(): block weight: 1365 txs: 0 fees: 0 sigops 400
+2025-03-05T02:21:35Z Leaving InitialBlockDownload (latching to false)
+2025-03-05T02:21:35Z UpdateTip: new best=3b756c75bb819e4d8e7536b022ad12a5751146c9b57b26558a98726e1120c8fa height=1 version=0x20000000 log2_work=1.000000 tx=3 date='2025-03-05T02:21:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:22:35Z UpdateTip: new best=aab8eec4a82cf0db5a395e538d6f628887fadc26416f986b4580d94415a03410 height=2 version=0x20000000 log2_work=1.584963 tx=4 date='2025-03-05T02:22:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:23:10Z CreateNewBlock(): block weight: 1365 txs: 0 fees: 0 sigops 400
+2025-03-05T02:23:35Z UpdateTip: new best=a7fddcbaf96f6d63b442e1bb5295efc5a8ae0b545eef78acf8ec5443297b262a height=3 version=0x20000000 log2_work=2.000000 tx=5 date='2025-03-05T02:23:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:24:35Z UpdateTip: new best=36399aac7c75d1ea145fab717d6d5146ad4485dcf9e14dda6f1efc78296e9af8 height=4 version=0x20000000 log2_work=2.321928 tx=6 date='2025-03-05T02:24:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:25:10Z CreateNewBlock(): block weight: 1365 txs: 0 fees: 0 sigops 400
+2025-03-05T02:25:35Z UpdateTip: new best=72d828c27319ecab62aa749566b923817c2b48413ab91a57a9edd45f59c4a230 height=5 version=0x20000000 log2_work=2.584963 tx=7 date='2025-03-05T02:25:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:26:35Z UpdateTip: new best=84c81056f6a5cd53b1b44e916efae3b5ebf5264226470746d9ea2c5fa8999419 height=6 version=0x20000000 log2_work=2.807355 tx=8 date='2025-03-05T02:26:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:27:10Z CreateNewBlock(): block weight: 1365 txs: 0 fees: 0 sigops 400
+2025-03-05T02:27:35Z UpdateTip: new best=9609a9d7b3da8dec41daac752400aecd88165288c75e02cf55a61eb9aa11d327 height=7 version=0x20000000 log2_work=3.000000 tx=9 date='2025-03-05T02:27:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:28:35Z UpdateTip: new best=55dc4b47721742e8e2fbd5ee86eda2e7a8614d21cdaf6db43d903e70efe89eb7 height=8 version=0x20000000 log2_work=3.169925 tx=10 date='2025-03-05T02:28:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:29:10Z CreateNewBlock(): block weight: 1365 txs: 0 fees: 0 sigops 400
+2025-03-05T02:29:35Z UpdateTip: new best=b72411bb8d5076b61c4e110601aab0f3dd869de298f92954d1fcbdca06af0724 height=9 version=0x20000000 log2_work=3.321928 tx=11 date='2025-03-05T02:29:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:30:35Z UpdateTip: new best=3961965060b5458e3664e73cb1e999f3605a56faec0f603418bd411488fec955 height=10 version=0x20000000 log2_work=3.459432 tx=12 date='2025-03-05T02:30:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:31:10Z CreateNewBlock(): block weight: 1365 txs: 0 fees: 0 sigops 400
+2025-03-05T02:31:35Z UpdateTip: new best=71f76ac9456e698e7e68309784523145a7eacd7c329c5e150d537cc9d42c1511 height=11 version=0x20000000 log2_work=3.584963 tx=13 date='2025-03-05T02:31:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:32:35Z UpdateTip: new best=447633d3772c4e403dfe7490cc0e6bc98dbf51c85d756b2ac0c3ce5abebbf3c9 height=12 version=0x20000000 log2_work=3.700440 tx=14 date='2025-03-05T02:32:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:33:10Z CreateNewBlock(): block weight: 1365 txs: 0 fees: 0 sigops 400
+2025-03-05T02:33:35Z UpdateTip: new best=be266c74785acb6c3236180d340786f2185e8d9bde7ff9fb358e399d1e3457ab height=13 version=0x20000000 log2_work=3.807355 tx=15 date='2025-03-05T02:33:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:34:35Z UpdateTip: new best=81d258ab512e35d60dcc9c57a9f02b32b385bbd6f59b65997a7fce0ef3dc1839 height=14 version=0x20000000 log2_work=3.906891 tx=16 date='2025-03-05T02:34:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:35:10Z CreateNewBlock(): block weight: 1365 txs: 0 fees: 0 sigops 400
+2025-03-05T02:35:35Z UpdateTip: new best=8694ddd90bee02f3cbb57184945b209ad68230ddf7492ebb0217d03de62ed057 height=15 version=0x20000000 log2_work=4.000000 tx=17 date='2025-03-05T02:35:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:36:35Z UpdateTip: new best=5f97a23feb8a4fedaf10b8afe0def87fda6865e9d39fad9641db97bae6e6df76 height=16 version=0x20000000 log2_work=4.087463 tx=18 date='2025-03-05T02:36:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:37:10Z CreateNewBlock(): block weight: 1369 txs: 0 fees: 0 sigops 400
+2025-03-05T02:37:35Z UpdateTip: new best=73a7a444981afc04a730b1927514dedbf709c281d41bc4108ace9fb778f5f3e5 height=17 version=0x20000000 log2_work=4.169925 tx=19 date='2025-03-05T02:37:10Z' progress=1.000000 cache=0.0MiB(1txo)
+2025-03-05T02:44:09Z opencon thread exit
+2025-03-05T02:44:09Z addcon thread exit
+2025-03-05T02:44:09Z Shutdown: In progress...
+2025-03-05T02:44:09Z net thread exit
+2025-03-05T02:44:09Z msghand thread exit
+2025-03-05T02:44:09Z scheduler thread exit
+2025-03-05T02:44:09Z Writing 0 unbroadcast transactions to disk.
+2025-03-05T02:44:09Z Dumped mempool: 1e-06s to copy, 0.003089s to dump
+2025-03-05T02:44:09Z Shutdown: done
