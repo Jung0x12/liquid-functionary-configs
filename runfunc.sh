@@ -15,7 +15,7 @@ sleep 1
 
 # --- Start blocksigner ---
 for i in 01 02 03 04 05;do
-    ~/Project/liquid-functionary/target/release/blocksigner $PWD/$i/blocksigner/ >$PWD/$i/blocksigner/debug.log 2>&1 &
+    ~/liquid-functionary/target/release/blocksigner $PWD/$i/blocksigner/ >$PWD/$i/blocksigner/debug.log 2>&1 &
 done
 sleep 1
 
