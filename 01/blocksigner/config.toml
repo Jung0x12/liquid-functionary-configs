@@ -14,8 +14,8 @@ name = "testfunc01"
 
 precommit_threshold = 4
 
-communication_secret_key = "cP37nzwyBME756hLDmFUHqUQccf38xqw6GTRenkHPVRMKr9HAoN2"
-signing_secret_key = "cP37nzwyBME756hLDmFUHqUQccf38xqw6GTRenkHPVRMKr9HAoN2"
+communication_secret_key = ""
+signing_secret_key = ""
 
 [consensus]
 stage1_ms = 10000

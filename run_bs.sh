@@ -1,5 +1,4 @@
-i=$1
+node="$1"
 
-echo "Run Blocksigner $i"
-
-~/liquid-functionary/target/release/blocksigner $PWD/$i/blocksigner/
+~/liquid-functionary/target/release/blocksigner "$PWD/$node/blocksigner/" "key-$node" \
+  >"$PWD/$node/blocksigner/debug.log" 2>&1 &
