@@ -14,9 +14,8 @@ name = "testfunc01"
 
 precommit_threshold = 2
 
-# communication_secret_key = "cTAktnFXeCUvEQdEdqtW2nj4omuFgiqExJoQFYnDJGyoPPHUmwvz"
-communication_secret_key = "cUv4MHemko9pHFt3qcDUZBCW4qHX81GNwxJiDibZX2aojymKL3d6"
-signing_secret_key = "cUv4MHemko9pHFt3qcDUZBCW4qHX81GNwxJiDibZX2aojymKL3d6"
+communication_secret_key = ""
+signing_secret_key = ""
 
 [consensus]
 stage1_ms = 10000
@@ -25,13 +24,11 @@ stage3_ms = 25000
 
 [[consensus.peer]]
 name = "testfunc01"
-# communication_public_key = "02f0814e49d176905ba5bb35abe28e33e8bb30bd579c31d414bbf2c214c95e7bf1"
 communication_public_key = "03132cabec6b0334a7cb388bcf178a85a1f366ee3d7b747e1b7bf16cfff40b4504"
 signing_public_key = "03132cabec6b0334a7cb388bcf178a85a1f366ee3d7b747e1b7bf16cfff40b4504"
 
 [[consensus.peer]]
 name = "testfunc02"
-# communication_public_key = "03317d217aef73af6022666d7eedf903a3aafd81e78033986871bbe7e6a9677565"
 communication_public_key = "02726b2b67ee1411baeb09e8122619d3e029af9bb8b6665609285bb5435f844f91"
 signing_public_key = "02726b2b67ee1411baeb09e8122619d3e029af9bb8b6665609285bb5435f844f91"
 addresses = ["127.0.0.1:14002"]
