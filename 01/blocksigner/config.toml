@@ -1,0 +1,60 @@
+[local]
+log_level = "debug"
+listen_addresses = ["0.0.0.0:14001"]
+
+sidechaind_rpc_url = "http://127.0.0.1:12001"
+sidechaind_rpc_user = "user"
+sidechaind_rpc_pass = "pwd"
+
+hsm_socket = false
+
+signal_dynafed_activation = false
+[node]
+name = "testfunc01"
+
+precommit_threshold = 4
+
+communication_secret_key = ""
+signing_secret_key = ""
+
+[consensus]
+stage1_ms = 2000
+stage2_ms = 5000
+stage3_ms = 5000
+
+[[consensus.peer]]
+name = "testfunc01"
+communication_public_key = "039c21d29d57aead60d2e1c9f1a4a8b66d576ef06cc6b5c88e21b09e0b222dc82a"
+signing_public_key = "039c21d29d57aead60d2e1c9f1a4a8b66d576ef06cc6b5c88e21b09e0b222dc82a"
+
+[[consensus.peer]]
+name = "testfunc02"
+communication_public_key = "03a8b4b2c1a7822612a2ba77dc04d45394820548589e010fec905894b23e4aded2"
+signing_public_key = "03a8b4b2c1a7822612a2ba77dc04d45394820548589e010fec905894b23e4aded2"
+addresses = ["20.243.145.43:14001"]
+
+[[consensus.peer]]
+name = "testfunc03"
+communication_public_key = "02f396c4e60a1146b1326f53d5f4c3922611919dd3373be20d8dbb54e86b3c966e"
+signing_public_key = "02f396c4e60a1146b1326f53d5f4c3922611919dd3373be20d8dbb54e86b3c966e"
+addresses = ["40.81.208.44:14001"]
+
+[[consensus.peer]]
+name = "testfunc04"
+communication_public_key = "035bea4dddfa26fb43d2354276d7539bfd8a9af951d844e9aced0937fa6dc7fd47"
+signing_public_key = "035bea4dddfa26fb43d2354276d7539bfd8a9af951d844e9aced0937fa6dc7fd47"
+addresses = ["4.216.194.9:14001"]
+
+[[consensus.peer]]
+name = "testfunc05"
+communication_public_key = "0307f4aa87b416117a6526171e06cc3e32fc9b3a9f8a99936cf5f47dffb8c90d2a"
+signing_public_key = "0307f4aa87b416117a6526171e06cc3e32fc9b3a9f8a99936cf5f47dffb8c90d2a"
+addresses = ["20.40.97.57:14001"]
+
+[[consensus.cpe]]
+start = 0
+blocksigner_descriptor = "wsh(thresh_m(4,testfunc01,testfunc02,testfunc03,testfunc04,testfunc05))"
+
+# Our PoC don't need watchman_descriptor & watchman_pak_list, but we need to keep it for compatibility
+watchman_descriptor = "sh(wsh(or_d(thresh_m(2,029b58fbba707f99227e8737f88e1c55147e71df3448998a2de3f55c8a8bfbd898,0376b3d151ebaf15ef7ecbef8ee2fd312bc168f6efbcf7bf5995b648e34baf37c9),and_v(v:older(4032),thresh_m(1,02aef2b8a39966d49183fdddaefdc75af6d81ea6d16f7aba745cc4855e88f83084,02141d452c3deeb937efff9f3378cd50bbde0543b77bbc6df6fc0e0addbf5578c5,03948d24a9622cb14b198aed0739783d7c03d74c32c05780a86b43429c65679def)))))"
+watchman_pak_list = [["02f8bed719f845d69046bda0ca6ae12fa353821610736d4c1988c1224eadafa1d0", "020fff1b2c30af53083f7cce9d9cce2765e1606eda5fde1ea6edd022a61652c3e7"]]
