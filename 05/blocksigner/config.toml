@@ -18,33 +18,33 @@ communication_secret_key = ""
 signing_secret_key = ""
 
 [consensus]
-stage1_ms = 2000
-stage2_ms = 5000
-stage3_ms = 5000
+stage1_ms = 1000
+stage2_ms = 2500
+stage3_ms = 2500
 
 [[consensus.peer]]
 name = "testfunc01"
 communication_public_key = "039c21d29d57aead60d2e1c9f1a4a8b66d576ef06cc6b5c88e21b09e0b222dc82a"
 signing_public_key = "039c21d29d57aead60d2e1c9f1a4a8b66d576ef06cc6b5c88e21b09e0b222dc82a"
-addresses = ["20.243.203.224:14001"]
+addresses = ["20.243.202.112:14001"]
 
 [[consensus.peer]]
 name = "testfunc02"
 communication_public_key = "03a8b4b2c1a7822612a2ba77dc04d45394820548589e010fec905894b23e4aded2"
 signing_public_key = "03a8b4b2c1a7822612a2ba77dc04d45394820548589e010fec905894b23e4aded2"
-addresses = ["20.243.145.43:14001"]
+addresses = ["4.216.184.221:14001"]
 
 [[consensus.peer]]
 name = "testfunc03"
 communication_public_key = "02f396c4e60a1146b1326f53d5f4c3922611919dd3373be20d8dbb54e86b3c966e"
 signing_public_key = "02f396c4e60a1146b1326f53d5f4c3922611919dd3373be20d8dbb54e86b3c966e"
-addresses = ["40.81.208.44:14001"]
+addresses = ["20.243.203.128:14001"]
 
 [[consensus.peer]]
 name = "testfunc04"
 communication_public_key = "035bea4dddfa26fb43d2354276d7539bfd8a9af951d844e9aced0937fa6dc7fd47"
 signing_public_key = "035bea4dddfa26fb43d2354276d7539bfd8a9af951d844e9aced0937fa6dc7fd47"
-addresses = ["4.216.194.9:14001"]
+addresses = ["20.243.128.130:14001"]
 
 [[consensus.peer]]
 name = "testfunc05"
